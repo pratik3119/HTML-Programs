@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form onsubmit="return check()">
+
+<input type="checkbox" id="c"> Accept Terms
+<br><br>
+
+<input type="submit">
+
+</form>
+
+<script>
+function check(){
+  if(!document.getElementById("c").checked){
+    alert("Please select checkbox");
+    return false;
+  }
+}
+</script>
+
+</body>
+</html>

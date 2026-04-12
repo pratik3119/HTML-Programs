@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="img" src="1.webp" width="200">
+<script>
+let i = 1;
+
+setInterval(function(){
+  i++;
+  if(i>3) i=1;
+  document.getElementById("img").src = i + ".webp";
+},2000);
+</script>
+
+</body>
+</html>

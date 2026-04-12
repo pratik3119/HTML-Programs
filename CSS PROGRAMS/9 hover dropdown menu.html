@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: lightgrey;
+  color: black;
+  padding: 10px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: red;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown:hover .menu {
+  display: block;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="menu">
+    <a href="#">Item 1</a>
+    <a href="#">Item 2</a>
+  </div>
+</div>
+
+</body>
+</html>

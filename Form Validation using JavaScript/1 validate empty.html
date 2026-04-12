@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form onsubmit="return check()">
+  <input type="text" id="name" placeholder="Enter Name">
+  <br><br>
+  <input type="submit">
+</form>
+
+<script>
+function check(){
+  let x = document.getElementById("name").value;
+
+  if(x == ""){
+    alert("Field cannot be empty");
+    return false;
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="change()">Click</button>
+
+<script>
+function change(){
+  let colors = ["red","green","blue","yellow"];
+  let i = Math.floor(Math.random()*colors.length);
+  document.body.style.background = colors[i];
+}
+</script>
+
+</body>
+</html>
